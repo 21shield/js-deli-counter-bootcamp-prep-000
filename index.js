@@ -12,9 +12,12 @@ function nowServing(arr){
     return 'There is nobody waiting to be served!'
   }
 }
-function currentLine(currentLine){
-  if(currentLine.length > 0){
 
+function currentLine(lineArr){
+  if(lineArr.length > 0){
+    for (let i = 0; i < lineArr.length; i++){
+      return `The line is currently: 1.${lineArr.join((i+1).)}`
+    }
   }else{
     return "The line is currently empty."
   }
