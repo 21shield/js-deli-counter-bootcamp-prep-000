@@ -18,7 +18,7 @@ function currentLine(lineArr){
   if(lineArr.length > 0){
     for (let i = 0; i < lineArr.length; i++){
      current.push(' ' + (i+1) + '.' + " " + lineArr[i])
-   }return 'The line is currently: ' + [...current]
+   }return 'The line is currently:' + [...current]
   }else{
     return "The line is currently empty."
   }
