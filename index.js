@@ -16,7 +16,7 @@ function nowServing(arr){
 function currentLine(lineArr){
   if(lineArr.length > 0){
     for (let i = 0; i < lineArr.length; i++){
-      return `The line is currently: 1.${lineArr[0]}, ${lineArr.join(i+1)}`
+      return `The line is currently: 1.${lineArr[0]}, ${lineArr[i]}`
     }
   }else{
     return "The line is currently empty."
