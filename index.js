@@ -14,9 +14,10 @@ function nowServing(arr){
 }
 
 function currentLine(lineArr){
+  let current = []
   if(lineArr.length > 0){
     for (let i = 0; i < lineArr.length; i++){
-      return `The line is currently: 1.${lineArr[0]}, ${lineArr[i]}`
+     current.push((i+1) + '.' + lineArr[i])
     }
   }else{
     return "The line is currently empty."
